@@ -1,0 +1,20 @@
+body {
+    
+    padding: 20px;
+}
+
+.item{
+    padding: 15px;
+    margin-left: 40%;
+}
+
+.txt1{
+    margin-left: 0%;
+    text-align: center;
+}
+
+.linea{
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}

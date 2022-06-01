@@ -1,0 +1,24 @@
+body{
+    padding: 20px;
+}
+
+.title{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.container{
+    text-align: center;
+}
+
+.rad{
+    padding: 15px;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+
+.item{
+    margin: 15px;
+    padding: 15px;
+    margin-left: 45%;
+}
