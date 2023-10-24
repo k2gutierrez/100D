@@ -5,60 +5,64 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="../static/c.css">
+    <link rel="stylesheet" href="../static/index.css">
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <title>CdD Cuestionario</title>
   </head>
   <body>
+    <div class="container-sm text-center my-5">
 
-    <div class="item txt1">
-      <h1>Cuestionario 100+D</h1>
+      <img src="../static/cdD.png" alt="logo" class="img-fluid" width="350px">
+
+      <div class="">
+        <h1>Cuestionario 100D</h1>
+      </div>
+  
+      <div class="text-start my-5">
+        <h3>Identifica las oportunidades y los  problemas de crecimiento que prevalecen en tu empresa y anótalos en los espacios que se indican:</h3>
+      </div>
+  
+      <div>
+        <h3 class="mb-4">Oportunidades y Problemas de Crecimiento:</h3>
+        <form id="form1" action="/cuestionario0" method="POST">
+          <div class="mb-3">
+            <input type="text" class="form-control" id="text1" name="t1" placeholder="Oportunidad o problema de crecimiento 1">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="text2" name="t1" placeholder="Oportunidad o problema de crecimiento 2">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="text3" name="t1"  placeholder="Oportunidad o problema de crecimiento 3">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="text4" name="t1"  placeholder="Oportunidad o problema de crecimiento 4">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="text5" name="t1" placeholder="Oportunidad o problema de crecimiento 5">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="text6" name="t1" placeholder="Oportunidad o problema de crecimiento 6">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="text7" name="t1" placeholder="Oportunidad o problema de crecimiento 7">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="text8" name="t1" placeholder="Oportunidad o problema de crecimiento 8">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="text9" name="t1" placeholder="Oportunidad o problema de crecimiento 9">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="text10" name="t1" placeholder="Oportunidad o problema de crecimiento 10">
+          </div>
+          <button type="submit" class="btn btn-primary">Siguiente</button>
+        </form>
+      </div>
     </div>
 
-    <div>
-      <h2>Identifica las oportunidades y los  problemas de crecimiento que prevalecen en tu empresa y anótalos en los espacios que se indican:</h2>
-    </div>
-
-    <div>
-      <h3>Oportunidades y Problemas de Crecimiento:</h3>
-      <form id="form1" action="/cuestionario0" method="POST">
-        <div class="mb-3">
-          <input type="text" class="form-control" id="text1" name="t1">
-        </div>
-        <div class="mb-3">
-          <input type="text" class="form-control" id="text2" name="t1">
-        </div>
-        <div class="mb-3">
-          <input type="text" class="form-control" id="text3" name="t1">
-        </div>
-        <div class="mb-3">
-          <input type="text" class="form-control" id="text4" name="t1">
-        </div>
-        <div class="mb-3">
-          <input type="text" class="form-control" id="text5" name="t1">
-        </div>
-        <div class="mb-3">
-          <input type="text" class="form-control" id="text6" name="t1">
-        </div>
-        <div class="mb-3">
-          <input type="text" class="form-control" id="text7" name="t1">
-        </div>
-        <div class="mb-3">
-          <input type="text" class="form-control" id="text8" name="t1">
-        </div>
-        <div class="mb-3">
-          <input type="text" class="form-control" id="text9" name="t1">
-        </div>
-        <div class="mb-3">
-          <input type="text" class="form-control" id="text10" name="t1">
-        </div>
-        <button type="submit" class="btn btn-primary">Siguiente</button>
-      </form>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
   </body>
 </html>

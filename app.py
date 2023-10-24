@@ -382,4 +382,6 @@ def resultado():
         causa1=causa1, causa2=causa2, causa3=causa3)
 
 if __name__ == "__main__":
+    app.jinja_env.auto_reload = True
+    app.config["TEMPLATES_AUTO_RELOAD"] = True
     app.run(debug=True,host='0.0.0.0',port=int(os.environ.get('PORT', 8080)))
